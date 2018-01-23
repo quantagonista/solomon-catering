@@ -282,5 +282,6 @@ input[type="text"]:focus {
 .video{
     margin: 0vw 15vw;
     width: 70vw;
+    height: 50vw;
     border: 2px dotted #ffdc35;
 }
