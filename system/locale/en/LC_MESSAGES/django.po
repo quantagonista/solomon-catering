@@ -1,0 +1,150 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-24 20:39-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\system\forms.py:4
+msgid "Имя"
+msgstr "Name"
+
+#: .\system\forms.py:5
+msgid "Телефон"
+msgstr "Phone"
+
+#: .\system\templates\system\index.html:24
+msgid "КЕЙТЕРИНГ"
+msgstr "CATERING"
+
+#: .\system\templates\system\index.html:25
+msgid "в Кыргызстане"
+msgstr "in Kyrgyzstan"
+
+#: .\system\templates\system\index.html:28
+msgid ""
+"Наша организация предоставляет услуги выездного питания. Мы развиваем "
+"культуру кейтринга в Кыргызстане,поддерживаем высокие стандарты в сфере "
+"питания и следим за качеством наших услуг."
+msgstr ""
+"Our company provides the service of Catering. "
+"We are developing the culture of Catering in "
+"Kyrgyzstan meeting the highest standards of food industry and ensuring the quality of our service."
+
+#: .\system\templates\system\index.html:29
+msgid ""
+"Компания “SolomonCatering” – это социальное предприятие, благодаря которому "
+"мы предоставляем возможность трудоустройства для уязвимой молодежи."
+msgstr "“Solomon Catering” company is a social enterprise where we provide an opportunity of employment for vulnerable youth."
+
+#: .\system\templates\system\index.html:30
+msgid "Делая заказ у нас - вы даете работу выпускникам детских домов."
+msgstr "Making an order at “SolomonCatering” you give a job for orphanage graduates."
+
+#: .\system\templates\system\index.html:31
+msgid "“SolomonCatering” – делаем с любовью!"
+msgstr "“Solomon Catering” – cooking with love!"
+
+#: .\system\templates\system\index.html:44
+msgid "ФОРМАТ УСЛУГ:"
+msgstr "CATERING SERVICE:"
+
+#: .\system\templates\system\index.html:59
+msgid "Фуршет"
+msgstr "Buffets"
+
+#: .\system\templates\system\index.html:60
+msgid ""
+"Популярный формат кейтринга. Закуски подаются на фуршетной линии, гости "
+"располагаются за коктейльными столами стоя, с напитками и лёгкими закусками."
+msgstr""
+"The most popular service of catering. Meals are served as a banquet line, "
+"guests are standing behind cocktail tables with drinks and light meals."
+
+#: .\system\templates\system\index.html:67
+msgid "Кофе-брейк"
+msgstr "Coffee-Breaks"
+
+#: .\system\templates\system\index.html:68
+msgid ""
+"Кофе-брейк или кофе-пауза, это небольшая пауза для перекуса, во время "
+"различных мероприятий. Формат не предполагает рассадку гостей."
+msgstr ""
+"Coffee-break is a small pause for having a snack during various events. This catering format does not imply seating of guests."
+#: .\system\templates\system\index.html:75
+msgid "Банкет"
+msgstr "Banquets"
+
+#: .\system\templates\system\index.html:76
+msgid ""
+"Торжественная форма кейтринг-обслуживания. Предполагает банкетную рассадку, "
+"подача еды полностью по стандартам банкета."
+msgstr "Banquet is a festive catering service. It assumes restaurant seating of guests and preparing of food according to banquet standards."
+
+#: .\system\templates\system\index.html:83
+msgid "Повар на выезд"
+msgstr "Personal Chef Services"
+
+#: .\system\templates\system\index.html:84
+msgid ""
+"Новая услуга на рынке Кыргызстана. Организация выездного повара у вас на "
+"дому. Приготовление всех видов блюд из банкетного меню, а также обслуживание "
+"официантов дляваших гостей."
+msgstr""
+"New service in the market of Kyrgyzstan providing the service of a professional chef cook at your home. "
+"Preparation of all types of dishes from the banquet menu and also service of waiters for your guests."
+
+#: .\system\templates\system\index.html:102
+msgid "МЫ ОБСЛУЖИЛИ:"
+msgstr "We have served:"
+
+#: .\system\templates\system\index.html:106
+msgid "БАНКЕТОВ"
+msgstr "BANQUETS"
+
+#: .\system\templates\system\index.html:110
+msgid "ФУРШЕТОВ"
+msgstr "BUFFETS"
+
+#: .\system\templates\system\index.html:114
+msgid "КОФЕ-БРЕЙКОВ"
+msgstr "COFFEE-BREAKS"
+
+#: .\system\templates\system\index.html:118
+msgid "ГОСТЕЙ"
+msgstr "GUESTS"
+
+#: .\system\templates\system\index.html:123
+msgid "НАШИ КЛИЕНТЫ:"
+msgstr "OUR CUSTOMERS:"
+
+#: .\system\templates\system\index.html:171
+msgid "ЕСТЬ ВОПРОС?"
+msgstr "DO YOU HAVE A QUESTION?"
+
+#: .\system\templates\system\index.html:172
+msgid "-наш специалист свяжется с Вами"
+msgstr "-our manager will contact you!"
+
+#: .\system\templates\system\index.html:177
+msgid "ОТПРАВИТЬ"
+msgstr "SEND"
+
+#: .\system\templates\system\index.html:183
+msgid "Наши контакты:"
+msgstr "Contacts: "
+
+#: .\system\templates\system\index.html:184
+msgid "г.Бишкек ул. Абдрахманова 29"
+msgstr "29 Abdrakhmanov st. Bishkek"

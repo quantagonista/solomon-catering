@@ -125,32 +125,30 @@
 input[type="text"] {
     background: transparent;
     border: none;
-    border-bottom: 1px solid #ffdc35;
+    border-bottom: 1px solid black;
     margin: 1em 6em;
     transition-duration: 300ms;
 }
 
-input::placeholder {
-    color: white;
-}
+
 
 input[type="text"]:focus {
     background: transparent;
     border: none;
     padding: 0.5em;
     outline: 0;
-    border-bottom: 1px solid #ffdc35;
+    border-bottom: 1px solid black;
     transition-duration: 300ms;
 }
 
 .form {
-    border: 1px solid #ffdc35;
+    border: 1px solid black;
     padding: 1vh;
     margin: 8vh auto;
-    color: white;
+    color: black;
+    background-color: white;
     text-align: center;
     font-family: "Gilroy Light", serif;
-    text-decoration-color: white;
 
 }
 
@@ -163,8 +161,8 @@ input[type="text"]:focus {
     display: block;
     margin: 0 auto;
     background: transparent;
-    border: 1px solid #ffdc35;
-    color: white;
+    border: 1px solid black;
+    color: black;
     font-family: "Gilroy ExtraBold", serif;
     padding: 10px 40px;
 }
@@ -279,10 +277,25 @@ input[type="text"]:focus {
 
 .link{
     margin: 0.5vw;
+    border: 1px solid #ffdc35;
+    height: 42px;
+    border-radius: 10px;
 }
+.link:hover{
+background-color: rgba(255, 220, 53, 0.22)
+}
+
 .video{
     margin: 0vw 15vw;
     width: 70vw;
     height: 50vw;
     border: 2px dotted #ffdc35;
+}
+.btn-sol{
+    color: #ffdc35;
+    background-color: transparent;
+    border: 1px solid #ffdc35;
+}
+.btn-sol:hover{
+    background-color: rgba(255, 220, 53, 0.22);
 }
