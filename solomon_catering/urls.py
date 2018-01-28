@@ -21,7 +21,7 @@ from system.views import HomeView, feedback
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', HomeView.as_view(), name='home'),
-    url(r'^(?P<lang>\w+)$', HomeView.as_view(), name='home'),
+    # url(r'^(?P<lang>\w+)$', HomeView.as_view(), name='home'),
     url(r'^l18n', include('django.conf.urls.i18n'), ),
     url(r'^feedback/$', feedback, name='feedback'),
 

@@ -22,5 +22,5 @@ def feedback(request):
     if request.method == 'POST':
         name = request.POST.get('first_name')
         phone_number = request.POST.get('phone_number')
-        return HttpResponse("ok")
-    return redirect(reverse('home'))
+
+        return render(request,'system/feedback.html',{'name':name})

@@ -1,0 +1,13 @@
+{% extends 'system/base.html' %}
+{% load static %}
+{% load i18n %}
+{% block  content %}
+    <div class="block1 block-feedback">
+        <div class="header">
+            {% trans 'Спасибо за отзыв, ' %} {{ name }}
+            <a href="{% url 'home' %}">
+                <button class="form-button solomon-button G-bold">{% trans 'НА ГЛАВНУЮ' %}</button>
+            </a>
+        </div>
+    </div>
+{% endblock %}
