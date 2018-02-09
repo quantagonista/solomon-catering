@@ -3,13 +3,14 @@
 {% load i18n %}
 {% block content %}
 
-    <div class="block1 ">
+    <div class="block1 " xmlns:data-interval="http://www.w3.org/1999/xhtml"
+         xmlns:data-interval="http://www.w3.org/1999/xhtml">
         <div class="text">
             <div class="header">
                 <h1 class="text-logo">{% trans 'КЕЙТЕРИНГ' %} </h1>
                 <h2 class="text-logo2">{% trans 'в Кыргызстане' %}</h2>
             </div>
-            <div class="text-logo-article">
+            <div class="text-logo-article ">
                 <p>{% trans 'Наша организация предоставляет услуги выездного питания. Мы развиваем культуру кейтринга в Кыргызстане,поддерживаем высокие стандарты в сфере питания и следим за качеством наших услуг.' %}</p>
                 <p>{% trans 'Компания “SolomonCatering” – это социальное предприятие, благодаря которому мы предоставляем возможность трудоустройства для уязвимой молодежи.' %}</p>
                 <p>{% trans 'Делая заказ у нас - вы даете работу выпускникам детских домов.' %}</p>
@@ -21,7 +22,11 @@
         </div>
     </div>
 
-    <div>
+
+    <div class=" container-fluid block">
+    <div class="header with-comment">SOLOMON CATERING
+            <div class="header-sm">{% trans 'Для счастливых:' %}</div>
+        </div>
         <iframe class="video"
                 src="https://www.youtube.com/embed/sUGddR8STeQ?version=3&rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&playlist=sUGddR8STeQ"
                 frameborder="0" allow="autoplay; loop; encrypted-media" allowfullscreen></iframe>
@@ -86,7 +91,78 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid block counts">
+
+    <div class="container-fluid block">
+        <div class="header with-comment">{% trans 'ПОВОД СОБЫТИЙ:' %}
+            <div class="header-xsm">{% trans 'Какие виды мероприятий требуют профессиональный кейтеринг:' %}</div>
+        </div>
+        <div id="carousel-inforeason" class="carousel slide" data-ride="carousel" data-interval="5400">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-inforeason" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-inforeason" data-slide-to="1"></li>
+                <li data-target="#carousel-inforeason" data-slide-to="2"></li>
+                <li data-target="#carousel-inforeason" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="f" style='background-image: url("{% static 'img/inforeason-1.jpg' %}")'>
+                        <div class="f-back">
+                            <p class="G-bold">{% trans 'КОРПОРАТИВНЫЕ МЕРОПРИЯТИЯ' %}</p>
+                            <p class="G-light">{% trans 'Корпоративы компаний ' %}</p>
+                            <p class="G-light">{% trans 'Церемонии награждений' %}</p>
+                            <p class="G-light">{% trans 'Официальные встречи' %}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="f" style='background-image: url("{% static 'img/inforeason-2.jpg' %}")'>
+                        <div class="f-back">
+                            <p class="G-bold">{% trans 'ОБРАЗОВАТЕЛЬНЫЕ МЕРОПРИЯТИЯ' %}</p>
+                            <p class="G-light">{% trans 'Конференции' %}</p>
+                            <p class="G-light">{% trans 'Семинары' %}</p>
+                            <p class="G-light">{% trans 'Тренинги' %}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="f" style='background-image: url("{% static 'img/inforeason-3.jpg' %}")'>
+                        <div class="f-back">
+                            <p class="G-bold">{% trans 'PR-МЕРОПРИЯТИЯ' %}</p>
+                            <p class="G-light">{% trans 'Презентация продуктов и услуг' %}</p>
+                            <p class="G-light">{% trans 'Открытие салона или магазина ' %}</p>
+                            <p class="G-light">{% trans 'Промо-акции' %}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="f" style='background-image: url("{% static 'img/inforeason-4.jpg' %}")'>
+                        <div class="f-back">
+                            <p class="G-bold">{% trans 'ЧАСТНЫЕ СОБЫТИЯ' %}</p>
+                            <p class="G-light">{% trans 'Свадебные мероприятия' %}</p>
+                            <p class="G-light">{% trans 'Дни рождения' %}</p>
+                            <p class="G-light">{% trans 'Тушоо-Той' %}</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <a class="carousel-control-prev" href="#carousel-inforeason" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control-next" href="#carousel-inforeason" role="button"
+                       data-slide="next">
+                        <span class="carousel-control-next-icon " aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class=" block2 counts">
         <div class="header">{% trans 'МЫ ОБСЛУЖИЛИ:' %}</div>
         <div class="row">
             <div class="square col">
@@ -107,10 +183,10 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid block ">
+    <div class="container-fluid block2 ">
         <div class="header">{% trans 'НАШИ КЛИЕНТЫ:' %}</div>
 
-        <div id="carousel-example-generic2" class="carousel slide" data-ride="carousel">
+        <div id="carousel-example-generic2" class="carousel slide" data-ride="carousel" data-interval="4000">
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
@@ -161,7 +237,7 @@
         </div>
     </div>
 
-    <div class="container form ">
+    <div class="container form">
         <p class="header-sm">{% trans 'ЕСТЬ ВОПРОС?' %}</p>
         <p class="header-xsm">{% trans '-наш специалист свяжется с Вами' %}</p>
         <div class="form-outline">

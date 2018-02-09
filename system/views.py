@@ -1,3 +1,4 @@
+from django.core.mail import send_mail
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
 # Create your views here.
@@ -18,9 +19,18 @@ class HomeView(TemplateView):
         return {'form':form}
 
 
+def validate(name, phone_number):
+    return len(name) > 0 and not name.isdigit() and len(phone_number) > 0
+
+
 def feedback(request):
     if request.method == 'POST':
         name = request.POST.get('first_name')
         phone_number = request.POST.get('phone_number')
-
-        return render(request,'system/feedback.html',{'name':name})
+        sender = "quantagonista@gmail.com"
+        receiver = "quantagonista@gmail.com"
+        if validate(name,phone_number):
+            text = name + ' ' + phone_number
+            send_mail('New Client',text, sender,[receiver], fail_silently=True,)
+            return render(request,'system/feedback.html',{'name':name, 'status':'OK'})
+        return render(request, 'system/feedback.html', {'name': name})

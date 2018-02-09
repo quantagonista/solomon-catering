@@ -5,6 +5,11 @@
     <div class="block1 block-feedback">
         <div class="header">
             {% trans 'Спасибо за отзыв, ' %} {{ name }}
+            {% if status %}
+                {% trans 'Заявка успешно отправлена' %}
+            {% else %}
+                {% trans 'Произошла ошибка, заполните форму еще раз' %} {{ name }}
+            {% endif %}
             <a href="{% url 'home' %}">
                 <button class="form-button solomon-button G-bold">{% trans 'НА ГЛАВНУЮ' %}</button>
             </a>

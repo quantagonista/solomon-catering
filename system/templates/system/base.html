@@ -1,7 +1,7 @@
 {% load static %}
 {% load i18n %}
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
 
@@ -16,11 +16,11 @@
     <link rel="stylesheet" href="{% static 'css/bootstrap-reboot.css' %}">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
-<body class="grey-5 background">
+<body class="grey-5 background-solomon">
 
 <nav class="navbar  fixed-top bg-black">
-    <a id="top-logo"  href="{% url 'home' %}">
-        <img  src="{% static 'img/top_logo.png' %}">
+    <a id="top-logo" href="{% url 'home' %}">
+        <img src="{% static 'img/top_logo.png' %}">
     </a>
     <div class="btn-group-sm" role="group" aria-label="...">
         <form action="{% url 'set_language' %}" method="post">
@@ -36,27 +36,26 @@
 {% endblock %}
 <div class="container-fluid ">
     <footer class="footer">
-        <div class="footer-header">{% trans 'Наши контакты:' %}</div>
+        <div class="header-sm">{% trans 'Наши контакты:' %}</div>
         <div class="header-xsm">{% trans 'г.Бишкек ул. Абдрахманова 29' %}</div>
         <div class="header-xsm">{% trans '0773 28 38 28' %}</div>
 
         <div class="list-inline links">
             <div class="link list-inline-item">
-                <a href="https://www.facebook.com/solomon.catering"><img
-                        src="{% static 'img/logos/fb-logo.png' %}" width="40vw"></a>
+                <a href="https://www.facebook.com/solomon.catering"><img class="social-media"
+                        src="{% static 'img/logos/fb-logo.png' %}"></a>
             </div>
             <div class="link list-inline-item">
-                <a href="https://www.instagram.com/solomon.catering"><img
-                        src="{% static 'img/logos/insta-logo.png' %}" width="40vw"></a>
+                <a href="https://www.instagram.com/solomon.catering"><img class="social-media"
+                        src="{% static 'img/logos/insta-logo.png' %}"></a>
             </div>
             <div class="link list-inline-item">
-                <a href="https://www.youtube.com/channel/UCqR-N9C2LwqsryKxLG1cmDQ"><img
-                        src="{% static 'img/logos/yt-logo.png' %}" width="40vw"></a>
+                <a href="https://www.youtube.com/channel/UCqR-N9C2LwqsryKxLG1cmDQ"><img class="social-media"
+                        src="{% static 'img/logos/yt-logo.png' %}"></a>
             </div>
 
         </div>
     </footer>
-</div>
 </div>
 </body>
 </html>
