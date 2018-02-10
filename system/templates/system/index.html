@@ -3,8 +3,7 @@
 {% load i18n %}
 {% block content %}
 
-    <div class="block1 " xmlns:data-interval="http://www.w3.org/1999/xhtml"
-         xmlns:data-interval="http://www.w3.org/1999/xhtml">
+    <div class="block1 ">
         <div class="text">
             <div class="header">
                 <h1 class="text-logo">{% trans 'КЕЙТЕРИНГ' %} </h1>
@@ -22,15 +21,6 @@
         </div>
     </div>
 
-
-    <div class=" container-fluid block">
-    <div class="header with-comment">SOLOMON CATERING
-            <div class="header-sm">{% trans 'Для счастливых:' %}</div>
-        </div>
-        <iframe class="video"
-                src="https://www.youtube.com/embed/sUGddR8STeQ?version=3&rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&playlist=sUGddR8STeQ"
-                frameborder="0" allow="autoplay; loop; encrypted-media" allowfullscreen></iframe>
-    </div>
 
     <div class="container-fluid block">
         <div class="header">{% trans 'ФОРМАТ УСЛУГ:' %}</div>
@@ -90,6 +80,15 @@
                 </div>
             </div>
         </div>
+    </div>
+
+     <div class=" container-fluid block">
+        <div class="header with-comment">SOLOMON CATERING
+            <div class="header-xsm">-{% trans 'для счастливых:' %}</div>
+        </div>
+        <iframe class="video"
+                src="https://www.youtube.com/embed/sUGddR8STeQ?version=3&rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&playlist=sUGddR8STeQ"
+                frameborder="0" allow="autoplay; loop; encrypted-media" allowfullscreen></iframe>
     </div>
 
     <div class="container-fluid block">
@@ -183,6 +182,96 @@
             </div>
         </div>
     </div>
+
+    <div class="container-fluid block2 ">
+        <div class="header">{% trans 'Отзывы клиентов:' %}</div>
+
+        <div id="carousel-feedback" class="carousel slide" data-ride="carousel" data-interval="5200">
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="feedback">
+                        <p class="feedback-text">
+                            {% trans 'Solomon Catering – это всегда вкусно, красиво и профессионально. Очень понравился индивидуальный подход, приготовление блюд и выбор. Всегда можно найти то, что удовлетворит желание любого гостя, заядлого вегетарианца и любителя мясных блюд. Был заказ выездного ресторана на открытии выставки – все было просто замечательно. Молодцы ребята, продолжайте в том же духе и хороших вам клиентов. С наилучшими пожеланиями' %}
+                        </p>
+                        <p class="feedback-author">
+                            {% trans 'Айгуль Д. Посольство Германии в КР.' %}
+                        </p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="feedback">
+                        <p class="feedback-text">
+                            {% trans 'Ребята, хотелось бы выразить огромную благодарность вашей команде за помощь и организацию превосходного фуршета- "проводы невесты" в день свадьбы наших детей а так же за помощь не менее важного приема гостей "куда тосуу". Так здорово, что вы предоставляете такие услуги. Отдельная благодарность  Вам Аскар, за практичный подход к расчету меню и продуктов - это не менее важно. Желаю Вам удачи, роста и процветания!' %}
+                        </p>
+                        <p class="feedback-author">
+                            {% trans 'Сауле Хавазова, коттеджный городок “Bravo”, Бишкек' %}
+                        </p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="feedback">
+                        <p class="feedback-text">
+                            {% trans 'С компанией “Solomon Catering” работаем достаточно давно, никогда не подводили. Очень ценим Вас за оперативность, индивидуальный подход к нашим запросам и качество предоставляемых услуг. Надеемся на дальнейшее плодотворное сотрудничество! ' %}
+                        </p>
+                        <p class="feedback-author">
+                            {% trans 'Нургуль М, Германское общество “GIZ”, Кыргызстан, г. Бишкек' %}
+                        </p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="feedback">
+                        <p class="feedback-text">
+                            {% trans 'Мы благодарим “Solomon Catering” за проведенный фуршет для нашей выставки. Ребята очень постарались и оформили красивый и необычный стол. Все было очень вкусно! Приятные и вежливые официантки обслуживали нас в течение вечера, спасибо вам за ваш подход к клиентам! Мы желаем процветание вашей компании!' %}
+                        </p>
+                        <p class="feedback-author">
+                            {% trans 'Марат Д, выставочный зал,  Кыргызстан, г. Бишкек' %}
+                        </p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="feedback">
+                        <p class="feedback-text">
+                            {% trans 'Отличный сервис! Замечательные впечатления! Очень вкусно готовят, оперативно работают. Всем рекомендую!!! Удачи вам!' %}
+                        </p>
+                        <p class="feedback-author">
+                            {% trans 'Асель А. “Operating company” Кыргызстан, г. Бишкек' %}
+                        </p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="feedback">
+                        <p class="feedback-text">
+                            {% trans 'Спасибо! Было все вкусно и оперативно!' %}
+                        </p>
+                        <p class="feedback-author">
+                            {% trans 'Эльзада И. Общественный Фонд, Кыргызстан, г. Бишкек' %}
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Controls -->
+            <div>
+                <a class="carousel-control-prev" href="#carousel-feedback" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-feedback" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon " aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
     <div class="container-fluid block2 ">
         <div class="header">{% trans 'НАШИ КЛИЕНТЫ:' %}</div>
 
@@ -197,7 +286,8 @@
                          alt="First">
                     <img class="d-inline-flex img-fluid round-image" src="{% static 'img/logos/3-finka.png' %}"
                          alt="First">
-                    <img class="d-inline-flex img-fluid round-image" src="{% static 'img/logos/4-Auswärtiges.png' %}"
+                    <img class="d-inline-flex img-fluid round-image"
+                         src="{% static 'img/logos/4-Auswärtiges.png' %}"
                          alt="First">
                     <img class="d-inline-flex img-fluid round-image" src="{% static 'img/logos/5-judgement.png' %}"
                          alt="First">
@@ -248,4 +338,5 @@
             </form>
         </div>
     </div>
+
 {% endblock %}

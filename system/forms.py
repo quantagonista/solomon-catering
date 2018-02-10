@@ -1,8 +1,8 @@
 from django import forms
-from django.utils.translation import ugettext
+from django.utils.translation import gettext
 
-name = ugettext(u'Имя')
-number = ugettext(u'Телефон')
+name = gettext(u'Имя')
+number = gettext(u'Телефон')
 
 
 class FeedbackForm(forms.Form):

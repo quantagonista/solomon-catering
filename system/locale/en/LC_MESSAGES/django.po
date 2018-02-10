@@ -8,143 +8,349 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-24 20:39-0800\n"
+"POT-Creation-Date: 2018-02-10 16:26+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\system\forms.py:4
+#: system/forms.py:4
 msgid "Имя"
 msgstr "Name"
 
-#: .\system\forms.py:5
+#: system/forms.py:5
 msgid "Телефон"
 msgstr "Phone"
 
-#: .\system\templates\system\index.html:24
+#: system/templates/system/base.html:48
+msgid "Наши контакты:"
+msgstr "Contacts: "
+
+#: system/templates/system/base.html:49
+msgid "г.Бишкек ул. Абдрахманова 29"
+msgstr "29 Abdrakhmanov st. Bishkek"
+
+#: system/templates/system/base.html:50
+msgid "0773 28 38 28"
+msgstr ""
+
+#: system/templates/system/feedback.html:7
+msgid "Спасибо, "
+msgstr "Thanks, "
+
+#: system/templates/system/feedback.html:9
+msgid "Заявка успешно отправлена"
+msgstr "Application successfully sent"
+
+#: system/templates/system/feedback.html:11
+msgid "Произошла ошибка, пожалуйста заполните форму еще раз"
+msgstr "There was an error, please fill out the form again"
+
+#: system/templates/system/feedback.html:14
+msgid "НА ГЛАВНУЮ"
+msgstr "TO MAIN"
+
+#: system/templates/system/index.html:9
 msgid "КЕЙТЕРИНГ"
 msgstr "CATERING"
 
-#: .\system\templates\system\index.html:25
+#: system/templates/system/index.html:10
 msgid "в Кыргызстане"
 msgstr "in Kyrgyzstan"
 
-#: .\system\templates\system\index.html:28
+#: system/templates/system/index.html:13
 msgid ""
 "Наша организация предоставляет услуги выездного питания. Мы развиваем "
 "культуру кейтринга в Кыргызстане,поддерживаем высокие стандарты в сфере "
 "питания и следим за качеством наших услуг."
 msgstr ""
-"Our company provides the service of Catering. "
-"We are developing the culture of Catering in "
-"Kyrgyzstan meeting the highest standards of food industry and ensuring the quality of our service."
+"Our company provides the service of Catering. We are developing the culture "
+"of Catering in Kyrgyzstan meeting the highest standards of food industry and "
+"ensuring the quality of our service."
 
-#: .\system\templates\system\index.html:29
+#: system/templates/system/index.html:14
 msgid ""
 "Компания “SolomonCatering” – это социальное предприятие, благодаря которому "
 "мы предоставляем возможность трудоустройства для уязвимой молодежи."
-msgstr "“Solomon Catering” company is a social enterprise where we provide an opportunity of employment for vulnerable youth."
+msgstr ""
+"“Solomon Catering” company is a social enterprise where we provide an "
+"opportunity of employment for vulnerable youth."
 
-#: .\system\templates\system\index.html:30
+#: system/templates/system/index.html:15
 msgid "Делая заказ у нас - вы даете работу выпускникам детских домов."
-msgstr "Making an order at “SolomonCatering” you give a job for orphanage graduates."
+msgstr ""
+"Making an order at “SolomonCatering” you give a job for orphanage graduates."
 
-#: .\system\templates\system\index.html:31
+#: system/templates/system/index.html:16
 msgid "“SolomonCatering” – делаем с любовью!"
 msgstr "“Solomon Catering” – cooking with love!"
 
-#: .\system\templates\system\index.html:44
+#: system/templates/system/index.html:26
 msgid "ФОРМАТ УСЛУГ:"
 msgstr "CATERING SERVICE:"
 
-#: .\system\templates\system\index.html:59
+#: system/templates/system/index.html:41
 msgid "Фуршет"
 msgstr "Buffets"
 
-#: .\system\templates\system\index.html:60
+#: system/templates/system/index.html:42
 msgid ""
 "Популярный формат кейтринга. Закуски подаются на фуршетной линии, гости "
 "располагаются за коктейльными столами стоя, с напитками и лёгкими закусками."
-msgstr""
+msgstr ""
 "The most popular service of catering. Meals are served as a banquet line, "
 "guests are standing behind cocktail tables with drinks and light meals."
 
-#: .\system\templates\system\index.html:67
+#: system/templates/system/index.html:49
 msgid "Кофе-брейк"
 msgstr "Coffee-Breaks"
 
-#: .\system\templates\system\index.html:68
+#: system/templates/system/index.html:50
 msgid ""
 "Кофе-брейк или кофе-пауза, это небольшая пауза для перекуса, во время "
 "различных мероприятий. Формат не предполагает рассадку гостей."
 msgstr ""
-"Coffee-break is a small pause for having a snack during various events. This catering format does not imply seating of guests."
-#: .\system\templates\system\index.html:75
+"Coffee-break is a small pause for having a snack during various events. This "
+"catering format does not imply seating of guests."
+
+#: system/templates/system/index.html:57
 msgid "Банкет"
 msgstr "Banquets"
 
-#: .\system\templates\system\index.html:76
+#: system/templates/system/index.html:58
 msgid ""
 "Торжественная форма кейтринг-обслуживания. Предполагает банкетную рассадку, "
 "подача еды полностью по стандартам банкета."
-msgstr "Banquet is a festive catering service. It assumes restaurant seating of guests and preparing of food according to banquet standards."
+msgstr ""
+"Banquet is a festive catering service. It assumes restaurant seating of "
+"guests and preparing of food according to banquet standards."
 
-#: .\system\templates\system\index.html:83
+#: system/templates/system/index.html:65
 msgid "Повар на выезд"
 msgstr "Personal Chef Services"
 
-#: .\system\templates\system\index.html:84
+#: system/templates/system/index.html:66
 msgid ""
 "Новая услуга на рынке Кыргызстана. Организация выездного повара у вас на "
 "дому. Приготовление всех видов блюд из банкетного меню, а также обслуживание "
 "официантов дляваших гостей."
-msgstr""
-"New service in the market of Kyrgyzstan providing the service of a professional chef cook at your home. "
-"Preparation of all types of dishes from the banquet menu and also service of waiters for your guests."
+msgstr ""
+"New service in the market of Kyrgyzstan providing the service of a "
+"professional chef cook at your home. Preparation of all types of dishes from "
+"the banquet menu and also service of waiters for your guests."
 
-#: .\system\templates\system\index.html:102
+#: system/templates/system/index.html:87
+#, fuzzy
+#| msgid "Для счастливых:"
+msgid "для счастливых:"
+msgstr "for newlyweds"
+
+#: system/templates/system/index.html:95
+msgid "ПОВОД СОБЫТИЙ:"
+msgstr "REASONS FOR CATERING"
+
+#: system/templates/system/index.html:96
+msgid "Какие виды мероприятий требуют профессиональный кейтеринг:"
+msgstr "Events requiring professional Catering service:"
+
+#: system/templates/system/index.html:112
+msgid "КОРПОРАТИВНЫЕ МЕРОПРИЯТИЯ"
+msgstr "CORPORATE SPECIAL EVENTS"
+
+#: system/templates/system/index.html:113
+msgid "Корпоративы компаний "
+msgstr "Corporate parties"
+
+#: system/templates/system/index.html:114
+msgid "Церемонии награждений"
+msgstr "Award Ceremonies"
+
+#: system/templates/system/index.html:115
+msgid "Официальные встречи"
+msgstr "Official meetings"
+
+#: system/templates/system/index.html:122
+msgid "ОБРАЗОВАТЕЛЬНЫЕ МЕРОПРИЯТИЯ"
+msgstr "EDUCATIONAL EVENTS"
+
+#: system/templates/system/index.html:123
+msgid "Конференции"
+msgstr "Conferences"
+
+#: system/templates/system/index.html:124
+msgid "Семинары"
+msgstr "Seminars"
+
+#: system/templates/system/index.html:125
+msgid "Тренинги"
+msgstr "Trainings"
+
+#: system/templates/system/index.html:132
+msgid "PR-МЕРОПРИЯТИЯ"
+msgstr "PR-EVENTS"
+
+#: system/templates/system/index.html:133
+msgid "Презентация продуктов и услуг"
+msgstr "Presentation of products and services"
+
+#: system/templates/system/index.html:134
+msgid "Открытие салона или магазина "
+msgstr "Opening of a salon or mall "
+
+#: system/templates/system/index.html:135
+msgid "Промо-акции"
+msgstr "Promotion events"
+
+#: system/templates/system/index.html:142
+msgid "ЧАСТНЫЕ СОБЫТИЯ"
+msgstr "PRIVATE CELEBRATIONS "
+
+#: system/templates/system/index.html:143
+msgid "Свадебные мероприятия"
+msgstr "Weddings "
+
+#: system/templates/system/index.html:144
+msgid "Дни рождения"
+msgstr "Birthdays "
+
+#: system/templates/system/index.html:145
+msgid "Тушоо-Той"
+msgstr "Traditional Events (Tushoo-Toy)"
+
+#: system/templates/system/index.html:165
 msgid "МЫ ОБСЛУЖИЛИ:"
 msgstr "We have served:"
 
-#: .\system\templates\system\index.html:106
+#: system/templates/system/index.html:169
 msgid "БАНКЕТОВ"
 msgstr "BANQUETS"
 
-#: .\system\templates\system\index.html:110
+#: system/templates/system/index.html:173
 msgid "ФУРШЕТОВ"
 msgstr "BUFFETS"
 
-#: .\system\templates\system\index.html:114
+#: system/templates/system/index.html:177
 msgid "КОФЕ-БРЕЙКОВ"
 msgstr "COFFEE-BREAKS"
 
-#: .\system\templates\system\index.html:118
+#: system/templates/system/index.html:181
 msgid "ГОСТЕЙ"
 msgstr "GUESTS"
 
-#: .\system\templates\system\index.html:123
+#: system/templates/system/index.html:187
+msgid "Отзывы клиентов:"
+msgstr "Customers' Feedback"
+
+#: system/templates/system/index.html:196
+msgid ""
+"Solomon Catering – это всегда вкусно, красиво и профессионально. Очень "
+"понравился индивидуальный подход, приготовление блюд и выбор. Всегда можно "
+"найти то, что удовлетворит желание любого гостя, заядлого вегетарианца и "
+"любителя мясных блюд. Был заказ выездного ресторана на открытии выставки – "
+"все было просто замечательно. Молодцы ребята, продолжайте в том же духе и "
+"хороших вам клиентов. С наилучшими пожеланиями"
+msgstr ""
+"Solomon Catering – is always tasty, beautiful and professional. I really "
+"enjoyed personal attention to our wishes, preparation of dishes and the "
+"choice of meals. Everyone can find exactly what they prefer, whether you are "
+"a vegetarian or a fan of meat dishes. We ordered Solomon Catering services "
+"for opening of an exhibition; everything was just perfect. Well done, please "
+"go on with the same enthusiasm and have more clients!"
+
+#: system/templates/system/index.html:199
+msgid "Айгуль Д. Посольство Германии в КР."
+msgstr "Aigul D. The Embassy of Germany in the Kyrgyz Republic"
+
+#: system/templates/system/index.html:207
+msgid ""
+"Ребята, хотелось бы выразить огромную благодарность вашей команде за помощь "
+"и организацию превосходного фуршета- \"проводы невесты\" в день свадьбы "
+"наших детей а так же за помощь не менее важного приема гостей \"куда тосуу"
+"\". Так здорово, что вы предоставляете такие услуги. Отдельная "
+"благодарность  Вам Аскар, за практичный подход к расчету меню и продуктов - "
+"это не менее важно. Желаю Вам удачи, роста и процветания!"
+msgstr ""
+"Guys, I would like to express my gratitude to your team for helping and the "
+"organizing an excellent banquet  - \"farewell to the bride\" on the wedding "
+"day of our children, and also for helping during the other very important "
+"reception of guests \"kuda tosuu\". So great I found your services! Special "
+"Thanks to you, Askar, for practical approach to calculating of the menu and "
+"products; it was also important! I wish you good luck, growth and prosperity!"
+
+#: system/templates/system/index.html:210
+msgid "Сауле Хавазова, коттеджный городок “Bravo”, Бишкек"
+msgstr "Saule Havazova, Cottage city \"Bravo\", Bishkek"
+
+#: system/templates/system/index.html:218
+msgid ""
+"С компанией “Solomon Catering” работаем достаточно давно, никогда не "
+"подводили. Очень ценим Вас за оперативность, индивидуальный подход к нашим "
+"запросам и качество предоставляемых услуг. Надеемся на дальнейшее "
+"плодотворное сотрудничество! "
+msgstr ""
+"We have been working with the Solomon Catering company for a long time, and "
+"they have always been professional in their service never let us down! We "
+"appreciate your efficiency, individual approach to our inquiries and the "
+"quality of provided services. Look forward to our further effective "
+"cooperation! "
+
+#: system/templates/system/index.html:221
+msgid "Нургуль М, Германское общество “GIZ”, Кыргызстан, г. Бишкек"
+msgstr "Nurgul M., German Organization \"GIZ\", Kyrgyzstan, Bishkek"
+
+#: system/templates/system/index.html:229
+msgid ""
+"Мы благодарим “Solomon Catering” за проведенный фуршет для нашей выставки. "
+"Ребята очень постарались и оформили красивый и необычный стол. Все было "
+"очень вкусно! Приятные и вежливые официантки обслуживали нас в течение "
+"вечера, спасибо вам за ваш подход к клиентам! Мы желаем процветание вашей "
+"компании!"
+msgstr ""
+"We thank Solomon Catering for organizing a banquet for our exhibition. The "
+"team really worked hard and prepared a beautiful and unusual table. "
+"Everything was very tasty! Pleasant and polite waitresses served us during "
+"the evening, thank you for your attention to the clients! We wish you "
+"prosperity!"
+
+#: system/templates/system/index.html:232
+msgid "Марат Д, выставочный зал,  Кыргызстан, г. Бишкек"
+msgstr "Marat D, Showroom, Kyrgyzstan, Bishkek"
+
+#: system/templates/system/index.html:240
+msgid ""
+"Отличный сервис! Замечательные впечатления! Очень вкусно готовят, оперативно "
+"работают. Всем рекомендую!!! Удачи вам!"
+msgstr ""
+"Excellent service! Great impressions! They cook very well and work smoothly. "
+"I highly recommend their services to everyone! Good luck to you!"
+
+#: system/templates/system/index.html:243
+msgid "Асель А. “Operating company” Кыргызстан, г. Бишкек"
+msgstr "Asel A. \"Operating company\" Kyrgyzstan, Bishkek"
+
+#: system/templates/system/index.html:251
+msgid "Спасибо! Было все вкусно и оперативно!"
+msgstr "Thanks! Everything was tasty and in time!"
+
+#: system/templates/system/index.html:254
+msgid "Эльзада И. Общественный Фонд, Кыргызстан, г. Бишкек"
+msgstr "Elzada I. Public Foundation, Kyrgyzstan, Bishkek"
+
+#: system/templates/system/index.html:276
 msgid "НАШИ КЛИЕНТЫ:"
 msgstr "OUR CUSTOMERS:"
 
-#: .\system\templates\system\index.html:171
+#: system/templates/system/index.html:331
 msgid "ЕСТЬ ВОПРОС?"
 msgstr "DO YOU HAVE A QUESTION?"
 
-#: .\system\templates\system\index.html:172
+#: system/templates/system/index.html:332
 msgid "-наш специалист свяжется с Вами"
 msgstr "-our manager will contact you!"
 
-#: .\system\templates\system\index.html:177
+#: system/templates/system/index.html:337
 msgid "ОТПРАВИТЬ"
 msgstr "SEND"
-
-#: .\system\templates\system\index.html:183
-msgid "Наши контакты:"
-msgstr "Contacts: "
-
-#: .\system\templates\system\index.html:184
-msgid "г.Бишкек ул. Абдрахманова 29"
-msgstr "29 Abdrakhmanov st. Bishkek"

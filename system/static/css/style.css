@@ -8,6 +8,12 @@
     src: url("../fonts/Gilroy-Light.otf") format("opentype");
 }
 
+@font-face {
+    font-family: "Handcraft";
+    src: url("../fonts/handcraft.ttf") format("truetype");
+}
+
+
 .grey-5 {
     background-color: #262626;
 }
@@ -33,7 +39,7 @@
 }
 
 .nav {
-    height: 6vh;
+    height: 2vh;
     background-color: #111;
     box-shadow: 0 0 20px 0 black;
 }
@@ -268,7 +274,21 @@ input[type="text"]:focus {
     background-size: 80vw;
     background-position: -4vw -4vw;
 }
+.feedback{
+    margin: 5vw auto;
+    padding: 5vw;
+    width: 70vw;
+    border: 2px #ffdc35 dotted;
 
+}
+.feedback-text{
+    font-family: "Gilroy Light";
+    font-size: 2em;
+}
+.feedback-author{
+    font-family: "Gilroy ExtraBold", serif;
+    font-size: 1.1em;
+}
 .counts {
     margin: 10vw auto;
     width: 70vw;
@@ -321,6 +341,19 @@ input[type="text"]:focus {
     color: #ffdc35;
     background-color: transparent;
     border: 1px solid #ffdc35;
+    margin: 5px;
+    font-family: "Gilroy ExtraBold";
+}
+
+.btn-soll {
+    color: aliceblue;
+    background-color: transparent;
+    border: 1px solid rgba(255, 220, 53, 0.77);
+    margin: 5px;
+}
+.btn-soll:hover {
+    color: #ffdc35;
+    background-color: rgba(255, 220, 53, 0.22);
 }
 
 .btn-sol:hover {
@@ -353,4 +386,14 @@ a:hover{
 }
 .social-media{
     width: 100px;
+}
+.navigation{
+    background-color: rgb(19, 19, 19);
+    width: 100vw;
+    position: fixed;
+    top: 5.3em;
+    padding: 1em;
+    float: left;
+    z-index: 3;
+    font-family: "Gilroy ExtraBold";
 }

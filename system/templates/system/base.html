@@ -18,7 +18,8 @@
 </head>
 <body class="grey-5 background-solomon">
 
-<nav class="navbar  fixed-top bg-black">
+<nav class="navbar fixed-top bg-black">
+
     <a id="top-logo" href="{% url 'home' %}">
         <img src="{% static 'img/top_logo.png' %}">
     </a>
@@ -30,6 +31,14 @@
         </form>
     </div>
 </nav>
+<div class="navigation">
+    <div class="float-right">
+        <a class="btn btn-soll block " href="#">ФОРМАТ</a>
+        <a class="btn btn-soll " href="#">ОТЗЫВЫ</a>
+        <a class="btn btn-soll " href="#">КЛИЕНТЫ</a>
+        <a class="btn btn-soll " href="#">О НАС</a>
+    </div>
+</div>
 {% block content %}
 
 
@@ -43,15 +52,15 @@
         <div class="list-inline links">
             <div class="link list-inline-item">
                 <a href="https://www.facebook.com/solomon.catering"><img class="social-media"
-                        src="{% static 'img/logos/fb-logo.png' %}"></a>
+                                                                         src="{% static 'img/logos/fb-logo.png' %}"></a>
             </div>
             <div class="link list-inline-item">
                 <a href="https://www.instagram.com/solomon.catering"><img class="social-media"
-                        src="{% static 'img/logos/insta-logo.png' %}"></a>
+                                                                          src="{% static 'img/logos/insta-logo.png' %}"></a>
             </div>
             <div class="link list-inline-item">
                 <a href="https://www.youtube.com/channel/UCqR-N9C2LwqsryKxLG1cmDQ"><img class="social-media"
-                        src="{% static 'img/logos/yt-logo.png' %}"></a>
+                                                                                        src="{% static 'img/logos/yt-logo.png' %}"></a>
             </div>
 
         </div>
