@@ -74,10 +74,11 @@
     text-align: center;
     height: auto;
     transition-duration: 300ms;
+    background-color: #191919;
 }
 
 .block2{
-    margin-top: 30vw;
+    margin-top: 10vw;
     padding: 30vw auto;
     color: white;
     text-align: center;
@@ -155,6 +156,7 @@ input[type="text"] {
 input[type="text"]:focus {
     background: transparent;
     border: none;
+
     padding: 0.5em;
     outline: 0;
     border-bottom: 1px solid black;
@@ -240,14 +242,14 @@ input[type="text"]:focus {
     padding-bottom: 1.5vw;
     width: 60%;
     font-size: 1.5em;
-    font-family: "Helvetica Neue", serif ;
+    font-family: "Gilroy Light", serif ;
 }
 
 .background {
     background-attachment: fixed;
     background-color: #262626;
     background-image: url("../img/pattern.svg");
-    background-size: 8%;
+    background-size: 100%;
     opacity: 30;
 }
 .background-solomon{
@@ -257,7 +259,9 @@ input[type="text"]:focus {
     background-size: 100vw;
     opacity: 30;
 }
-
+.pass{
+    margin-bottom: 10vw;
+}
 .f {
     margin: 0 auto;
     padding: 2vw;
@@ -274,9 +278,10 @@ input[type="text"]:focus {
     background-size: 80vw;
     background-position: -4vw -4vw;
 }
+
 .feedback{
-    margin: 5vw auto;
-    padding: 5vw;
+    margin: 2.5vw auto;
+    padding: 3vw;
     width: 70vw;
     border: 2px #ffdc35 dotted;
 

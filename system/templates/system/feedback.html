@@ -5,8 +5,8 @@
     <div class="block1 block-feedback">
         <div class="header">
             {% if status %}
-                <p>{% trans 'Спасибо, ' %} {{ name }}</p>
-                <p>{% trans 'Заявка успешно отправлена' %gt}</p>
+                <p>{% trans 'Спасибо за вашу заявку, ' %} {{ name }}</p>
+                <p class="header-sm">{% trans 'Мы обязательно свяжемся с Вами!' %}</p>
             {% else %}
                 <p class="header-sm">{% trans 'Произошла ошибка, пожалуйста заполните форму еще раз' %}</p>
             {% endif %}

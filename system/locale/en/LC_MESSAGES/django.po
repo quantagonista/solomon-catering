@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-10 16:26+0600\n"
+"POT-Creation-Date: 2018-02-10 19:06+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,25 +25,41 @@ msgstr "Name"
 msgid "Телефон"
 msgstr "Phone"
 
-#: system/templates/system/base.html:48
+#: system/templates/system/base.html:36
+msgid "О НАС"
+msgstr "ABOUT US"
+
+#: system/templates/system/base.html:37
+msgid "УСЛУГИ"
+msgstr "SERVICES"
+
+#: system/templates/system/base.html:38
+msgid "ФОРМАТ"
+msgstr "EVENTS"
+
+#: system/templates/system/base.html:39
+msgid "ОТЗЫВЫ"
+msgstr "FEEDBACKS"
+
+#: system/templates/system/base.html:40
+msgid "КОНТАКТЫ"
+msgstr "CONTACTS"
+
+#: system/templates/system/base.html:50
 msgid "Наши контакты:"
 msgstr "Contacts: "
 
-#: system/templates/system/base.html:49
-msgid "г.Бишкек ул. Абдрахманова 29"
-msgstr "29 Abdrakhmanov st. Bishkek"
+#: system/templates/system/base.html:51
+msgid "г.Бишкек ул. Жибек-Жолу 346"
+msgstr "346 Jibek-Jolu st. Bishkek"
 
-#: system/templates/system/base.html:50
-msgid "0773 28 38 28"
-msgstr ""
-
-#: system/templates/system/feedback.html:7
-msgid "Спасибо, "
-msgstr "Thanks, "
+#: system/templates/system/feedback.html:8
+msgid "Спасибо за вашу заявку, "
+msgstr "Thank you for your application, "
 
 #: system/templates/system/feedback.html:9
-msgid "Заявка успешно отправлена"
-msgstr "Application successfully sent"
+msgid "Мы обязательно свяжемся с Вами!"
+msgstr "We will contact you!"
 
 #: system/templates/system/feedback.html:11
 msgid "Произошла ошибка, пожалуйста заполните форму еще раз"
@@ -73,7 +89,7 @@ msgstr ""
 
 #: system/templates/system/index.html:14
 msgid ""
-"Компания “SolomonCatering” – это социальное предприятие, благодаря которому "
+"Компания “Solomon Catering” – это социальное предприятие, благодаря которому "
 "мы предоставляем возможность трудоустройства для уязвимой молодежи."
 msgstr ""
 "“Solomon Catering” company is a social enterprise where we provide an "
@@ -82,11 +98,11 @@ msgstr ""
 #: system/templates/system/index.html:15
 msgid "Делая заказ у нас - вы даете работу выпускникам детских домов."
 msgstr ""
-"Making an order at “SolomonCatering” you give a job for orphanage graduates."
+"Making an order at “Solomon Catering” you give a job for orphanage graduates."
 
 #: system/templates/system/index.html:16
-msgid "“SolomonCatering” – делаем с любовью!"
-msgstr "“Solomon Catering” – cooking with love!"
+msgid "“Solomon Catering” – делаем с любовью!"
+msgstr "“Solomon Catering” – making with love!"
 
 #: system/templates/system/index.html:26
 msgid "ФОРМАТ УСЛУГ:"
@@ -136,17 +152,15 @@ msgstr "Personal Chef Services"
 msgid ""
 "Новая услуга на рынке Кыргызстана. Организация выездного повара у вас на "
 "дому. Приготовление всех видов блюд из банкетного меню, а также обслуживание "
-"официантов дляваших гостей."
+"официантов для ваших гостей."
 msgstr ""
 "New service in the market of Kyrgyzstan providing the service of a "
 "professional chef cook at your home. Preparation of all types of dishes from "
 "the banquet menu and also service of waiters for your guests."
 
 #: system/templates/system/index.html:87
-#, fuzzy
-#| msgid "Для счастливых:"
-msgid "для счастливых:"
-msgstr "for newlyweds"
+msgid "ДЛЯ СЧАСТЛИВЫХ:"
+msgstr "FOR MAKING YOU HAPPY"
 
 #: system/templates/system/index.html:95
 msgid "ПОВОД СОБЫТИЙ:"

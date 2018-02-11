@@ -3,7 +3,7 @@
 {% load i18n %}
 {% block content %}
 
-    <div class="block1 ">
+    <div id="about" class="block1 ">
         <div class="text">
             <div class="header">
                 <h1 class="text-logo">{% trans 'КЕЙТЕРИНГ' %} </h1>
@@ -11,14 +11,15 @@
             </div>
             <div class="text-logo-article ">
                 <p>{% trans 'Наша организация предоставляет услуги выездного питания. Мы развиваем культуру кейтринга в Кыргызстане,поддерживаем высокие стандарты в сфере питания и следим за качеством наших услуг.' %}</p>
-                <p>{% trans 'Компания “SolomonCatering” – это социальное предприятие, благодаря которому мы предоставляем возможность трудоустройства для уязвимой молодежи.' %}</p>
+                <p>{% trans 'Компания “Solomon Catering” – это социальное предприятие, благодаря которому мы предоставляем возможность трудоустройства для уязвимой молодежи.' %}</p>
                 <p>{% trans 'Делая заказ у нас - вы даете работу выпускникам детских домов.' %}</p>
-                <p>{% trans '“SolomonCatering” – делаем с любовью!' %}</p>
+                <p>{% trans '“Solomon Catering” – делаем с любовью!' %}</p>
             </div>
             <div class="venus">
                 <img class="venus" src="{% static 'img/venus.jpg' %}" width="90%">
             </div>
-        </div>
+            <div id="kinds"></div>
+        </div>  
     </div>
 
 
@@ -63,7 +64,7 @@
                     <div class="f" style='background-image: url("{% static 'img/buffet-4.jpg' %}")'>
                         <div class="f-back">
                             <p class="G-bold">{% trans 'Повар на выезд' %}</p>
-                            <p class="G-light">{% trans 'Новая услуга на рынке Кыргызстана. Организация выездного повара у вас на дому. Приготовление всех видов блюд из банкетного меню, а также обслуживание официантов дляваших гостей.' %}</p>
+                            <p class="G-light">{% trans 'Новая услуга на рынке Кыргызстана. Организация выездного повара у вас на дому. Приготовление всех видов блюд из банкетного меню, а также обслуживание официантов для ваших гостей.' %}</p>
                         </div>
                     </div>
                 </div>
@@ -82,13 +83,19 @@
         </div>
     </div>
 
-     <div class=" container-fluid block">
+    <div class=" container-fluid block">
         <div class="header with-comment">SOLOMON CATERING
-            <div class="header-xsm">-{% trans 'для счастливых:' %}</div>
+            <div class="header-xsm">- {% trans 'ДЛЯ СЧАСТЛИВЫХ:' %}</div>
         </div>
-        <iframe class="video"
-                src="https://www.youtube.com/embed/sUGddR8STeQ?version=3&rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&playlist=sUGddR8STeQ"
-                frameborder="0" allow="autoplay; loop; encrypted-media" allowfullscreen></iframe>
+        <div class="pass">
+            <iframe class="video"
+                    src="https://www.youtube.com/embed/a5ImAWBkWkU?version=3&rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&playlist=sUGddR8STeQ"
+                    frameborder="0" allow="autoplay; loop; " allowfullscreen>
+
+            </iframe>
+            <div id="format"></div>
+        </div>
+
     </div>
 
     <div class="container-fluid block">
@@ -173,7 +180,7 @@
                 <div>{% trans 'ФУРШЕТОВ' %}</div>
             </div>
             <div class="square col">
-                <div class="number">635</div>
+                <div class="number">320</div>
                 <div>{% trans 'КОФЕ-БРЕЙКОВ' %}</div>
             </div>
             <div class="square col">
@@ -181,10 +188,11 @@
                 <div>{% trans 'ГОСТЕЙ' %}</div>
             </div>
         </div>
+        <div id="feedbacks"></div>
     </div>
 
-    <div class="container-fluid block2 ">
-        <div class="header">{% trans 'Отзывы клиентов:' %}</div>
+    <div class="container-fluid block2">
+        <div id="feedbacks" class="header">{% trans 'Отзывы клиентов:' %}</div>
 
         <div id="carousel-feedback" class="carousel slide" data-ride="carousel" data-interval="5200">
 
@@ -328,7 +336,7 @@
     </div>
 
     <div class="container form">
-        <p class="header-sm">{% trans 'ЕСТЬ ВОПРОС?' %}</p>
+        <p id="contacts" class="header-sm">{% trans 'ЕСТЬ ВОПРОС?' %}</p>
         <p class="header-xsm">{% trans '-наш специалист свяжется с Вами' %}</p>
         <div class="form-outline">
             <form action="{% url 'feedback' %}" method="post">

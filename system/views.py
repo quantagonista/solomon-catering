@@ -11,12 +11,10 @@ from system.forms import FeedbackForm
 
 class HomeView(TemplateView):
     template_name = 'system/index.html'
+    form = FeedbackForm()
 
     def get_context_data(self, **kwargs):
-        form = FeedbackForm()
-        if 'lang' in kwargs:
-            pass
-        return {'form':form}
+        return {'form':self.form}
 
 
 def validate(name, phone_number):
