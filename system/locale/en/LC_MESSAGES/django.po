@@ -39,7 +39,7 @@ msgstr "EVENTS"
 
 #: system/templates/system/base.html:39
 msgid "ОТЗЫВЫ"
-msgstr "FEEDBACKS"
+msgstr "FEEDBACK"
 
 #: system/templates/system/base.html:40
 msgid "КОНТАКТЫ"
@@ -102,7 +102,7 @@ msgstr ""
 
 #: system/templates/system/index.html:16
 msgid "“Solomon Catering” – делаем с любовью!"
-msgstr "“Solomon Catering” – making with love!"
+msgstr "“Solomon Catering” – preparing with love!"
 
 #: system/templates/system/index.html:26
 msgid "ФОРМАТ УСЛУГ:"
@@ -129,7 +129,7 @@ msgid ""
 "Кофе-брейк или кофе-пауза, это небольшая пауза для перекуса, во время "
 "различных мероприятий. Формат не предполагает рассадку гостей."
 msgstr ""
-"Coffee-break is a small pause for having a snack during various events. This "
+"Coffee-break is a short pause for having a snack during various events. This "
 "catering format does not imply seating of guests."
 
 #: system/templates/system/index.html:57
@@ -142,29 +142,30 @@ msgid ""
 "подача еды полностью по стандартам банкета."
 msgstr ""
 "Banquet is a festive catering service. It assumes restaurant seating of "
-"guests and preparing of food according to banquet standards."
+"guests and food preparation according to banquet standards."
 
 #: system/templates/system/index.html:65
 msgid "Повар на выезд"
 msgstr "Personal Chef Services"
 
 #: system/templates/system/index.html:66
+#: system/templates/system/index.html:66
 msgid ""
 "Новая услуга на рынке Кыргызстана. Организация выездного повара у вас на "
 "дому. Приготовление всех видов блюд из банкетного меню, а также обслуживание "
 "официантов для ваших гостей."
 msgstr ""
-"New service in the market of Kyrgyzstan providing the service of a "
+"New service on the market of Kyrgyzstan providing the service of a "
 "professional chef cook at your home. Preparation of all types of dishes from "
 "the banquet menu and also service of waiters for your guests."
 
 #: system/templates/system/index.html:87
 msgid "ДЛЯ СЧАСТЛИВЫХ:"
-msgstr "FOR MAKING YOU HAPPY"
+msgstr "TO MAKE YOU HAPPY"
 
 #: system/templates/system/index.html:95
 msgid "ПОВОД СОБЫТИЙ:"
-msgstr "REASONS FOR CATERING"
+msgstr "WHY TO CHOOSE CATERING"
 
 #: system/templates/system/index.html:96
 msgid "Какие виды мероприятий требуют профессиональный кейтеринг:"

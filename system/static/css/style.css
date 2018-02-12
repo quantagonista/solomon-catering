@@ -246,10 +246,10 @@ input[type="text"]:focus {
 }
 
 .background {
-    background-attachment: fixed;
+    background-attachment: local;
     background-color: #262626;
     background-image: url("../img/pattern.svg");
-    background-size: 100%;
+    background-repeat: no-repeat;
     opacity: 30;
 }
 .background-solomon{
