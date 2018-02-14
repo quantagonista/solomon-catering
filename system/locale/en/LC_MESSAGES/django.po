@@ -55,7 +55,7 @@ msgstr "346 Jibek-Jolu st. Bishkek"
 
 #: system/templates/system/feedback.html:8
 msgid "Спасибо за вашу заявку, "
-msgstr "Thank you for your application, "
+msgstr "Thank you for your interest, "
 
 #: system/templates/system/feedback.html:9
 msgid "Мы обязательно свяжемся с Вами!"
@@ -82,27 +82,23 @@ msgid ""
 "Наша организация предоставляет услуги выездного питания. Мы развиваем "
 "культуру кейтринга в Кыргызстане,поддерживаем высокие стандарты в сфере "
 "питания и следим за качеством наших услуг."
-msgstr ""
-"Our company provides the service of Catering. We are developing the culture "
-"of Catering in Kyrgyzstan meeting the highest standards of food industry and "
-"ensuring the quality of our service."
+msgstr "Our company provides excellent catering in delightful food preparation as well as personalized service of the highest standards. We are creating a catering culture in Kyrgyzstan exceeding standards in the food service industry, ensuring the highest quality of service to delight our customers."
+
 
 #: system/templates/system/index.html:14
 msgid ""
 "Компания “Solomon Catering” – это социальное предприятие, благодаря которому "
 "мы предоставляем возможность трудоустройства для уязвимой молодежи."
-msgstr ""
-"“Solomon Catering” company is a social enterprise where we provide an "
-"opportunity of employment for vulnerable youth."
+msgstr "“Solomon Catering” is a company  where we provide employment opportunities for youth in our society who have have been in vulnerable social situations. We strive to help our community, and make a positive difference."
+
 
 #: system/templates/system/index.html:15
 msgid "Делая заказ у нас - вы даете работу выпускникам детских домов."
-msgstr ""
-"Making an order at “Solomon Catering” you give a job for orphanage graduates."
+msgstr "By ordering from “Solomon Catering”  for your next catering need, you are giving job opportunities for orphanage graduates."
 
 #: system/templates/system/index.html:16
 msgid "“Solomon Catering” – делаем с любовью!"
-msgstr "“Solomon Catering” – preparing with love!"
+msgstr "“Solomon Catering” – prepared with love!"
 
 #: system/templates/system/index.html:26
 msgid "ФОРМАТ УСЛУГ:"
@@ -140,9 +136,8 @@ msgstr "Banquets"
 msgid ""
 "Торжественная форма кейтринг-обслуживания. Предполагает банкетную рассадку, "
 "подача еды полностью по стандартам банкета."
-msgstr ""
-"Banquet is a festive catering service. It assumes restaurant seating of "
-"guests and food preparation according to banquet standards."
+msgstr "A banquet is a festive catering service accommodating many guests. It provides restaurant style seating and food preparation according to the highest banquet standards."
+
 
 #: system/templates/system/index.html:65
 msgid "Повар на выезд"
