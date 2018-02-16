@@ -122,10 +122,11 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 
+EMAIL_HOST = 'smtp.mail.ru'
+EMAIL_PORT = 2525
+EMAIL_HOST_USER = 'solomon.catering@inbox.ru'
+EMAIL_HOST_PASSWORD = 'ilovemyself777'
 EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'quantagonista@gmail.com'
-EMAIL_HOST_PASSWORD = 'D16M12year1997'
+
 
 BOT_TOKEN = '484397997:AAGdcpPythPiVoAlAUaxi_nZUcXtT2UZtIM'
