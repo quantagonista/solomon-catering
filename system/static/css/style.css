@@ -8,12 +8,6 @@
     src: url("../fonts/Gilroy-Light.otf") format("opentype");
 }
 
-@font-face {
-    font-family: "Handcraft";
-    src: url("../fonts/handcraft.ttf") format("truetype");
-}
-
-
 .grey-5 {
     background-color: #262626;
 }
@@ -49,7 +43,7 @@
 }
 
 #top-logo {
-    margin: 0 auto;
+    margin-left: 35vw;
 }
 
 .block {
@@ -400,5 +394,5 @@ a:hover{
     padding: 1em;
     float: left;
     z-index: 3;
-    font-family: "Gilroy ExtraBold";
+    font-family: "Gilroy ExtraBold", serif;
 }

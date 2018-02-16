@@ -1,12 +1,8 @@
 from django.core.mail import send_mail
-from django.http import HttpResponse
 from django.shortcuts import render, redirect
-# Create your views here.
-from django.urls import reverse
-from django.utils import translation
 from django.views.generic import TemplateView
-
 from system.forms import FeedbackForm
+from solomon_catering.settings import EMAIL_HOST_USER
 
 
 class HomeView(TemplateView):
@@ -25,8 +21,8 @@ def feedback(request):
     if request.method == 'POST':
         name = request.POST.get('first_name')
         phone_number = request.POST.get('phone_number')
-        sender = "quantagonista@gmail.com"
-        receiver = "quantagonista@gmail.com"
+        sender = EMAIL_HOST_USER
+        receiver = EMAIL_HOST_USER
         if validate(name,phone_number):
             text = name + ' ' + phone_number
             send_mail('New Client',text, sender,[receiver], fail_silently=True,)
